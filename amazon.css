@@ -1,0 +1,215 @@
+*{
+    margin: 0px;
+font-family: arial;  
+border: border-box;  
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image: url("amazon logo.png");
+    background-size: cover;
+    height: 30px;
+    width: 100%
+    
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+/**box **/
+.add-first{
+     color:#cccccc;
+    font-size: 1rem;
+    margin-left: 15px;
+
+
+}
+
+.add-secund{
+display: flex;
+margin-left: 3px;
+display: inline-block;
+
+
+}
+
+/**box3**/
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: gold;
+    width: 620px;
+    height: 40px;
+    border-radius:4px;
+    text-align: center;
+}
+.search-slect{
+   background-color: #f3f3f3;
+   width:50px;
+   border-top-left-radius:4px;
+   border-bottom-left-radius:4px ;
+   border: none;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+   width: 45px;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    border-radius: 4px;
+    color: black;
+}
+/**box4**/
+.country{
+    background-image: url("indin_fleg.jpg");
+    background-size: cover;
+    height: 21.6px;
+    width: 22px;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    border: 2px solid white;
+
+}
+.longuage{
+    color: white;
+    margin-left: 25px;
+    font-size: 1.6rem;
+    display: flex;
+    margin-top:5px ;
+
+}
+/**box5**/
+span{
+    font-size: 0.7rem;
+}
+.nav-secund{
+    font-size:0.85rem ;
+    font-weight: 700;
+}
+.nav-search:hover{
+    box-shadow: 0 0 5px 2px #febd68;
+    cursor: pointer;
+}
+.nav-cart i{
+font-size: 30px;
+
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+
+/**panel start**/
+.panle{
+    height:40px ;
+    background-color: #222f3d;
+    display: flex;
+    color:white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-ops p{
+    display: inline-block;
+    margin-left:15px ;
+}
+.panel-ops{
+    width: 70%;
+    font-size:0.85rem;
+}
+.panel-deals{
+    font-size: 9rem;
+    font-weight: 700;
+}
+
+/**hero-section**/
+.hero-section{
+    background-image: url("hero section.jpg");
+    height:600px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-msg{
+    background-color: #f3f3f3;
+    color: #0f1111;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 80%;
+    margin-bottom: 260px;
+}
+.hero-msg a{
+    color: #007185;
+}
+
+/**content**/
+
+.content{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    background-color:rgb(233, 226, 226);/**esko hatana hai bad me **/
+    position: relative;
+    top: -240px;
+    z-index: 10;
+    
+}
+.box{
+    /* border: 2px solid black; */
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+}
+.box-img{
+    height: 300px;
+    background-size: cover ;
+    background-repeat: no-repeat;
+    margin-top:1rem ;
+    margin-bottom: 1rem;
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1.2rem;
+    margin-top: 15px;
+}
+.box-content{
+    color: #007185;
+}
+
+
+/* footer */
+footer{
+    background-color: #1a1907ad;
+    color: rgb(234, 229, 229);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: -150px;
+    height: 100px;
+    
+}
